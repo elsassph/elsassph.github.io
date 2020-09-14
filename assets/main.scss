@@ -1,0 +1,31 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+.site-header {
+    border-bottom: 1px solid #424242;
+}
+.site-header::after {
+    content: "";
+    display: block;
+    background: url(/images/header-banner.jpg) center no-repeat #161408;
+    height: 220px;
+}
+
+.post-content h4 {
+    border-bottom: solid 1px #ccc;
+}
+
+a:hover {
+    color: deeppink;
+}
+
+.highlight, .code {
+    border-radius: 8px;
+}
+
+code {
+    font-family: 'JetBrains mono', Consolas, Monaco, monospace;
+}
